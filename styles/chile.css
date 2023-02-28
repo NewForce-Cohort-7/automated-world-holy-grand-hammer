@@ -1,0 +1,63 @@
+h1 {
+    font-size: 100px;
+    font-style: italic;
+    color: red;
+    border: 10px groove goldenrod;
+    border-top: 10px dashed red;
+    border-bottom: 10px dotted red;
+    margin-left: 825px;
+    margin-right: 815px;
+    border-radius: 45%;
+    
+}
+
+body {
+    background-color: rgb(1, 10, 4);
+}
+
+.flexBox {
+    display: flex;
+    
+   
+}
+
+.cities {
+    color: hotpink;
+    font-size: large;
+    font-family: fantasy;
+    display: flex;
+    border: 5px groove rgb(2, 250, 77);
+    margin: auto;
+    background-color: rgb(92, 11, 241);
+    
+}
+
+.landmarks {
+    font-style: italic;
+    color: lime;
+    font-size: 25px;
+    background-color: darkmagenta;
+    margin: 5px;
+    display: flex;
+    border: 10px dotted rgb(115, 245, 63);
+    padding: 4px;
+    border-radius: 5%;
+
+}
+
+.celebs {
+    margin: auto;
+    display: flex;
+    border: 7px ridge rgb(4, 170, 247);
+    background-color: goldenrod;
+    color:rgb(96, 243, 243);
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+img {
+    border-radius: 10%;
+    height: 300px;
+    width: 300px;
+    border: 15px ridge rgb(248, 4, 4);
+}
