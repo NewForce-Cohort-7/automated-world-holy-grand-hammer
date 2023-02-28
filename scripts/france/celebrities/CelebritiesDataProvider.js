@@ -1,5 +1,5 @@
 const france = {
-    celebrities: [
+    celebs: [
         {
             name: "Coco Chanel",
             age: "Died on January 10, 1971(aged 87)",
@@ -16,29 +16,30 @@ const france = {
         {
             name: "Andre the Giant",
             age: "Died on January, 27 1993(aged 46",
-            bestKnownFor: "French Professional Wrestler known for his giant size, reaching over 7 ft tall! Most popular French wrestler to appear in WWF."
+            bestKnownFor: "French Professional Wrestler known for his giant size, reaching over 7 ft tall! Most popular French wrestler to appear in WWF.",
+            image: "https://staticg.sportskeeda.com/editor/2021/12/603bc-16403862196141-1920.jpg"
         },
         
         
     ]
 }
 
-const getLandmarks = () => {
-    return france.landmarks.map(copyOfSingleLandmarkObject => ({...copyOfSingleLandmarkObject}))
+const getCelebs = () => {
+    return france.celebs.map(copyOfSingleCelebObject => ({...copyOfSingleCelebObject}))
 };
 
-const landmarkList = () => {
-    const landmarks = getLandmarks()
+const celebList = () => {
+    const celebs = getCelebs()
 
-    let htmlString = `<body><article class="landmarkList">`
+    let htmlString = `<body><article class="celebList">`
 
-    for (const singleLandmark of landmarks) {
+    for (const singleCeleb of celebs) {
 
-        htmlString += `<section class="landmarkcard">
-            <div><img  class="landmark__image image--card" src="${singleLandmark.image}" /></div>
-            <div class="landmark__name">Name: ${singleLandmark.name}</div>
-            <div class="landmark__location">Location: ${singleLandmark.location}</div>
-            <div class="landmark__constructed">Best Known For: ${singleLandmark.bestKnownFor}</div>
+        htmlString += `<section class="celebcard">
+            <div><img  class="celeb__image image--card" src="${singleCeleb.image}" /></div>
+            <div class="celeb__name">Name: ${singleCeleb.name}</div>
+            <div class="celeb__age">Age : ${singleCeleb.age}</div>
+            <div class="celeb__bestKnownFor">Best Known For: ${singleCeleb.bestKnownFor}</div>
             
         </section>
 `
@@ -48,15 +49,15 @@ const landmarkList = () => {
     return htmlString
 };
 
-const allLandmarks = getLandmarks();
+const allCelebs = getCelebs();
 
-for (const singleLandmark of allLandmarks) {
-    console.log(singleLandmark)
+for (const singleCeleb of allCelebs) {
+    console.log(singleCeleb)
 };
 
-const parentHTMLElement = document.querySelector(".landmarks");
+const parentHTMLElement = document.querySelector(".celebs");
 
-parentHTMLElement.innerHTML = landmarkList();
+parentHTMLElement.innerHTML = celebList();
 
 
 
