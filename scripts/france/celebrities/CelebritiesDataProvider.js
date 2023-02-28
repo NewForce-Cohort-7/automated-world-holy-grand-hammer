@@ -10,7 +10,7 @@ const france = {
         {
             name: "Emma Watson",
             age: "32 years old",
-            bestKnwonFor: "Made first famous by her role as Harmiony in the Harry Potter film series.",
+            bestKnwonFor: "Made first famous by her role as Harmiony in the 'Harry Potter film series'.",
             image: "https://www.thefamouspeople.com/profiles/thumbs/emma-watson-4.jpg"
         },
         {
