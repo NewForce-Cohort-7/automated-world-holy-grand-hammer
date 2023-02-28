@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://images5.alphacoders.com/433/433145.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+
+
+
+
+ img{
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    }
+
+    .cities {
+        height: 100vh;
+        width: 25vw;
+        display: flex;
+         padding: 10px;
+         border: 10px dotted fuchsia;
+        background-color: crimson;
+        
+    }
+
+    .landmarks { display: flex;
+        padding: 10px;
+        border: 40px dotted seagreen;
+       background-color: darkgoldenrod;
+       justify-content: space-around;
+       align-items: first baseline;
+       flex-direction: row;
+
+    }
+    
+    .celebs { display: flex;
+        height: 100vh;
+        width: 25vw;
+        padding: 10px;
+        border: 25px dotted lawngreen;
+       background-color: hotpink;
+       justify-content: flex-end;
+    
+       flex-direction: row;
+
+    }
+
+    .moveCeleb {
+        display: flex;
+        justify-content: right;
+    }
