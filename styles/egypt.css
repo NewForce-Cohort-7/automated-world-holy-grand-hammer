@@ -1,0 +1,40 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font: 64px sans-serif ;
+    filter: drop-shadow(0 0 0.75rem black)
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font: 28px sans-serif bolder;
+    text-decoration: underline;
+}
+
+body {
+    background-color: chocolate;
+    background-image: linear-gradient(to bottom right, brown, chocolate, ivory);
+}
+
+img {
+    width: 320px;
+    height: 210px;
+    filter: drop-shadow(5px 5px 4px black);
+    border-radius: 5%;
+}
+
+article {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+div {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

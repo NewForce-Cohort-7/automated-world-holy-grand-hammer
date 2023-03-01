@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/egypt.css ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Egypt</h1>
+  <div class="citiescontainer">
+    <h2>Cities</h2>
+    <article class="cities"></article>
+  </div>
+
+  <div class="landmarkscontainer">
+    <h2>Landmarks</h2>
+    <article class="landmarks"></article>
+  </div>
+
+  <div class="celebscontainer">
+    <h2>Celebrities</h2>
+    <article class="celebs"></article>
+  </div>
+    
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+<button onclick="goBack()">Go Back</button>
+
+    <script type="module" src="scripts/egypt/celebrities/CelebritiesDataProvider.js"></script>
+    <script type="module" src="scripts/egypt/cities/CityDataProvider.js"></script>
+    <script type="module" src="scripts/egypt/landmarks/LandmarkDataProvider.js"></script>
+</body>
+</html>

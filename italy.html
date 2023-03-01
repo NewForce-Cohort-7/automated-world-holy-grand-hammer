@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/italy.css ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italy SubPage</title>
+</head>
+<body>
+    <audio controls autoplay>
+        <source src="Thats-Amore - Dean-Amore.mp3" type="audio/mpeg">
+        
+      </audio>
+  <h1><strong>Italy</strong></h1>
+  <h3><em>Cities</em></h3>
+  <div class="cities"></div>
+
+  <h3><em>Landmarks</em></h3>
+  
+  <div class="landmarks"></div>
+  <div class = "moveCeleb"><
+     <h3><em>Celebrities</em></h3>
+    <div class="celebs"></div> 
+</div>
+
+    
+<!-- Add a button or link that will trigger the JavaScript function -->
+<button onclick="goBack()">Go Back</button>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+    <script type="module" src="scripts/italy/celebrities/CelebritiesDataProvider.js"></script>
+    <script type="module" src="scripts/italy/cities/CityDataProvider.js"></script>
+    <script type="module" src="scripts/italy/landmarks/LandmarkDataProvider.js"></script>
+</body>
+</html>
