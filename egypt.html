@@ -8,7 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-  <h1>Egypt</h1>
+  <section class="drop-head-container">
+  <section class="dropdown">
+    <button class="dropbtn">Menu</button>
+    <section class="dropdown-content">
+      <a class="dropdown-item" href="index.html"> Home </a>  
+      <a class="dropdown-item" href="chile.html"> Chile </a>
+      <a class="dropdown-item" href="france.html"> France </a>  
+      <a class="dropdown-item" href="italy.html"> Italy </a>  
+    </section>
+  </section>
+  <section class="header">Egypt</section>
+</section>
+<hr></hr>
   <div class="citiescontainer">
     <h2>Cities</h2>
     <article class="cities"></article>
@@ -23,13 +35,6 @@
     <h2>Celebrities</h2>
     <article class="celebs"></article>
   </div>
-    
-  <script>
-      function goBack() {
-          window.history.back();
-      }
-  </script>
-<button onclick="goBack()">Go Back</button>
 
     <script type="module" src="scripts/egypt/celebrities/CelebritiesDataProvider.js"></script>
     <script type="module" src="scripts/egypt/cities/CityDataProvider.js"></script>
