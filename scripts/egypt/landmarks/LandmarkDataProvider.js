@@ -3,14 +3,14 @@ const egypt = {
         {
             image: "https://c4.wallpaperflare.com/wallpaper/374/1005/261/pyramid-egypt-desert-architecture-wallpaper-preview.jpg",
             name: "The Great Pyramid of Giza",
-            location: "West of Cairo",
+            location: "Giza, West of Cairo",
             constructed: "2560 BCE",
             size: "754 feet x 474 feet",
         },
         {
             image: "https://images.pexels.com/photos/262786/pexels-photo-262786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             name: "The Great Sphinx of Giza",
-            location: "West of Cario, near The Great Pyramid of Giza",
+            location: "West of Cairo, near The Great Pyramid of Giza",
             constructed: "2500 BCE",
             size: "238 feet x 68 feet",
         },
@@ -37,10 +37,10 @@ const landmarkList = () => {
 
         htmlString += `<section class="landmarkcard">
             <div><img  class="landmark__image image--card" src="${singleLandmark.image}" /></div>
-            <div class="landmark__name">Name: ${singleLandmark.name}</div>
-            <div class="landmark__location">Location: ${singleLandmark.location}</div>
-            <div class="landmark__constructed">Constructed: ${singleLandmark.constructed}</div>
-            <div class="landmark__size">Size: ${singleLandmark.size}</div>
+            <div class="landmark__name"><b>Name:</b> ${singleLandmark.name}</div>
+            <div class="landmark__location"><b>Location:</b> ${singleLandmark.location}</div>
+            <div class="landmark__constructed"><b>Constructed:</b> ${singleLandmark.constructed}</div>
+            <div class="landmark__size"><b>Size:</b> ${singleLandmark.size}</div>
         </section>
 `
     }

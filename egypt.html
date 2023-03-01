@@ -8,20 +8,28 @@
     <title>Document</title>
 </head>
 <body>
-  <h1><strong>Egypt</strong></h1>
-  <div class="cities"></div>
+  <h1>Egypt</h1>
+  <div class="citiescontainer">
+    <h2>Cities</h2>
+    <article class="cities"></article>
+  </div>
 
-  <div class="landmarks"></div>
+  <div class="landmarkscontainer">
+    <h2>Landmarks</h2>
+    <article class="landmarks"></article>
+  </div>
 
-  <div class="celebs"></div>
+  <div class="celebscontainer">
+    <h2>Celebrities</h2>
+    <article class="celebs"></article>
+  </div>
     
-<!-- Add a button or link that will trigger the JavaScript function -->
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
 <button onclick="goBack()">Go Back</button>
-<script>
-    function goBack() {
-        window.history.back();
-    }
-</script>
 
     <script type="module" src="scripts/egypt/celebrities/CelebritiesDataProvider.js"></script>
     <script type="module" src="scripts/egypt/cities/CityDataProvider.js"></script>
