@@ -12,7 +12,7 @@ const france = {
         {
             name: "Louvre Museum",
             location: "Located in Paris",
-            bestKnwonFor: "The world's most-visited museum and a historic landmark. In 2022, there was 7.8 million visitors!",
+            bestKnownFor: "The world's most-visited museum and a historic landmark. In 2022, there was 7.8 million visitors!",
             image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZ-I6EFBQAb_3uVrWxzU7D8jEKEHgorvIb0djgKDRjVnWJtCaDsglbCw_dxs1WR9PHDMtTk0E8B5MnqOVAWMCTAw",
 
         },

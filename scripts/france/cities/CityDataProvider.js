@@ -10,7 +10,7 @@ const france = {
         {
             name: "Nice",
             population: "Population of 720,000.",
-            bestKnwonFor: "Founded by the Greeks, then a retreat for 19th century European elite.",
+            bestKnownFor: "Founded by the Greeks, then a retreat for 19th century European elite.",
             image: "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcR8q918CPDSFfwH7ZgRzjv73vZF26P_WpwR71x1Rd1spgHFJ0URrBRJZOQZXwmoJBrd",
 
         },
