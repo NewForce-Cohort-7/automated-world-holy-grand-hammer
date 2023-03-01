@@ -1,5 +1,15 @@
 body {
-    background-color: wheat;
+    background-image: url("https://i.imgur.com/ez5SdrO.png");
+    color: plum;
+    font-style: italic;
+    border: 15px groove pink;
+    border-radius: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 129px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 img {
@@ -7,3 +17,15 @@ img {
     height: 360px;
     filter: drop-shadow(0 0 0.75rem black);
 };
+
+.chile {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+

@@ -5,24 +5,24 @@ const chile = {
     
     celebs: [
         {
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pedro_Pascal_by_Gage_Skidmore.jpg/220px-Pedro_Pascal_by_Gage_Skidmore.jpg",
+            image: "https://i.pinimg.com/474x/85/15/a8/8515a8bacf03cb81a211edd0a33ce306.jpg",
             name: "Pedro Pascal",
             birth: "1975",
-            death: "null",
+            death: "NEVER",
             birthplace: "Santiago, Chile"
         },
         {
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Cote_de_Pablo_retouch.jpg/220px-Cote_de_Pablo_retouch.jpg",
+            image: "https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTc1OTMyOTEzNTU4NjUz/ncis.jpg",
             name: "Cote de Pablo",
             birth: "1979",
-            death: "null",
+            death: "no",
             birthplace: "Santiago, Chile"
         },
         {
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHox2uU_F_pjka0hRxjWppjk8TVo2qXOoA9g&usqp=CAU",
             name: "Alexis Sanchez",
             birth: "1988",
-            death: "null",
+            death: "alive",
             birthplace: "Tocopilla, Chile"
         }
     ]
