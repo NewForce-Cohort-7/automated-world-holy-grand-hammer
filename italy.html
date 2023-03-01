@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles/chile.css ">
+    <link rel="stylesheet" href="styles/italy.css ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Italy SubPage</title>
 </head>
 <body>
-  <h1><strong>Chile</strong></h1>
+  <h1><strong>Italy</strong></h1>
+  <h3><em>Cities</em></h3>
   <div class="cities"></div>
 
+  <h3><em>Landmarks</em></h3>
+  
   <div class="landmarks"></div>
 
-  <div class="celebs"></div>
+  <h3><em>Celebrities</em></h3>
+ <div class = "moveCeleb"><
+    <div class="celebs"></div> 
+</div>
+
     
 <!-- Add a button or link that will trigger the JavaScript function -->
 <button onclick="goBack()">Go Back</button>
@@ -23,6 +30,8 @@
     }
 </script>
 
-    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/italy/celebrities/CelebritiesDataProvider.js"></script>
+    <script type="module" src="scripts/italy/cities/CityDataProvider.js"></script>
+    <script type="module" src="scripts/italy/landmarks/LandmarkDataProvider.js"></script>
 </body>
 </html>

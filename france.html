@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles/chile.css ">
+    <link rel="stylesheet" href="styles/france.css ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>France</title>
 </head>
 <body>
-  <h1><strong>Chile</strong></h1>
+  <!-- Add a button or link that will trigger the JavaScript function -->
+  <button onclick="goBack()">Go Back</button>
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+  <h1><strong>Tour De France</strong></h1>
+
+  
+  <h2><strong>Cities</strong></h2>
   <div class="cities"></div>
 
+  <h3><strong>Landmarks</strong></h3>
   <div class="landmarks"></div>
 
+  <h2><strong>Celebrities</strong></h2>
   <div class="celebs"></div>
-    
-<!-- Add a button or link that will trigger the JavaScript function -->
-<button onclick="goBack()">Go Back</button>
-<script>
-    function goBack() {
-        window.history.back();
-    }
-</script>
 
-    <script type="module" src="scripts/main.js"></script>
+
+
+
+    <script type="module" src="scripts/france/celebrities/celebritiesDataProvider.js"></script>
+    <script type="module" src="scripts/france/cities/CityDataProvider.js"></script>
+    <script type="module" src="scripts/france/landmarks/LandmarkDataProvider.js"></script>
+
 </body>
 </html>
