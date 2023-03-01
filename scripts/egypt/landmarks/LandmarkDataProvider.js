@@ -39,7 +39,7 @@ const landmarkList = () => {
             <div><img  class="landmark__image image--card" src="${singleLandmark.image}" /></div>
             <div class="landmark__name">Name: ${singleLandmark.name}</div>
             <div class="landmark__location">Location: ${singleLandmark.location}</div>
-            <div class="landmark__constructed">Species: ${singleLandmark.constructed}</div>
+            <div class="landmark__constructed">Constructed: ${singleLandmark.constructed}</div>
             <div class="landmark__size">Size: ${singleLandmark.size}</div>
         </section>
 `
