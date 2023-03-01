@@ -3,43 +3,54 @@ img {
     width: 300px;
     height: auto;
 }
-
-.cities {
-    border: 20px solid rgb(231, 19, 19);
-    padding: 2em;
-    width: 50%;
-    height: 30%;
-    text-align: justify;
-}
-
-.landmarks {
-    border: 20px dotted rgb(54, 165, 42);
-    padding: 2em;
-    float: right;
-    width: 30%;
-    text-align: right;
-}
-
-.celebs {
-    border: 20px solid rgb(200, 124, 58);
-    padding: 2em;
-    width: 30%;
-    
-}
+div {
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        
+    }
+   article {
+     display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: 10px dashed fuchsia;
+   }
 
 body {
     background: url(https://user-images.githubusercontent.com/39142850/67110554-fdea5400-f20d-11e9-834a-d459a612b7b1.gif);
     text-decoration-color: azure;
     color: azure;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-display: ;
 }
 
 h1 {
     text-align: center;
     color: aliceblue;
-    text-underline-position: below;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+   
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+}
+
+/* h2 {
+    display: flex;
+    justify-content: center;
+    font: 64px sans-serif ;
+    filter: drop-shadow(0 0 0.75rem black)
 }
 
 h3 {
-    text-align: right;
-    font-size: 40px;
-}
+    display: flex;
+    justify-content: center;
+    font: 28px sans-serif bolder;
+    text-decoration: underline;
+} */
