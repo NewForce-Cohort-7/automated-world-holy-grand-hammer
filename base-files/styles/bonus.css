@@ -1,0 +1,14 @@
+body {
+    background-image: url(https://media0.giphy.com/media/nrXif9YExO9EI/giphy.gif?cid=ecf05e47zk9q2lrvc9iqn6kau8tq9was3qk7eg4axm302ip9&rid=giphy.gif&ct=g);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    }
+
+section {
+    display: flex;
+    justify-content: center;
+}
